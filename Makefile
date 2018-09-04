@@ -3,7 +3,7 @@ PREFIX?=$(shell pwd)
 
 # Setup name variables for the package/tool
 NAME := img
-PKG := github.com/genuinetools/$(NAME)
+PKG := github.com/codeblockio/$(NAME)
 
 # Set any default go build tags
 BUILDTAGS := seccomp
