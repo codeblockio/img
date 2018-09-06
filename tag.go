@@ -19,7 +19,7 @@ func (cmd *tagCommand) ShortHelp() string  { return tagHelp }
 func (cmd *tagCommand) LongHelp() string   { return tagHelp }
 func (cmd *tagCommand) Hidden() bool       { return false }
 func (cmd *tagCommand) DoReexec() bool     { return true }
-func (cmd *tagCommand) RequiresRunc() bool { return false }
+func (cmd *tagCommand) RequiresRunc() bool { return true }
 
 func (cmd *tagCommand) Register(fs *flag.FlagSet) {}
 
